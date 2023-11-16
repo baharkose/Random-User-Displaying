@@ -48,5 +48,15 @@ window.onload = () => {
     fetchData();
 };
 
-
+document.addEventListener("keydown",(e)=>{
+    if(e.key === "ArrowRight"){
+        fetchData();
+    }
+    else if(e.key === "ArrowLeft"){
+        fetchData();
+    }
+    if(e.key === "Enter"){
+        fetchData();
+    }
+})
 
